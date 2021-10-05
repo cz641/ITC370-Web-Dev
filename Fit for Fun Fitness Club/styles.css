@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:25px;}
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+}s
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+body {
+  background-color: #F3F5F7;
+}
+p{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+}
+
+#one{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+
+#two{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+#five{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+
+#six{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+
+#eight{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+
+#nine{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+
+#ten{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+
+#eleven{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+
+#seven{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+text-align: center;
+}
+.three{
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+}
+
+input {
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+}
+
+label {
+font-family:Garamond;
+color: #03045e;
+font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #5B96AD;
+  color: white;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  border: 1px solid black;
+}
+
+table {
+  font-family: Papyrus;
+}
+table {
+  color: #016FB9;
+}
+
+h1 {
+font-family:Garamond;
+color: #03045e;
+}
+
+h1{
+text-align: center;
+}
+
+h2 {
+font-family:Garamond;
+color: #03045e;
+}
+
+h2{
+text-align: center;
+}
+
+form {
+font-family:Garamond;
+font-size: 22px;
+}
+
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Index</a></li>
+  <li><a href="classes.html">Classes</a></li>
+  <li><a href="info.html">Info</a></li>
+</ul>
+
+<h2>Index</h2>
+
+<p>Cross Training</p>
+
+<img src="Cross%20Training.jpg" alt="Cross Training" width="300" height="200">
+
+<p>Sprint</p>
+
+<img src="sprint.jpeg" alt="Sprint" width="300" height="200">
+
+<p>Spin</p>
+
+<img src="spin.jpg" alt="Spin" width="300" height="200">
+
+<p>Body Pump</p>
+
+<img src="Body%20Pump.jpg" alt="Body Pump" width="300" height="200">
+
+<p>Body Combat</p>
+
+<img src="Body%20Combat.jpg" alt="Body Combat" width="300" height="200">
+
+<p>Step Interval</p>
+
+<img src="Step%20Interval.jpg" alt="Step Interval" width="300" height="200">
+
+<p>Advanced Cross%20Training</p>
+
+<img src="Advanced%20Cross%20Training.jpg" alt="Advanced Cross Training" width="300" height="200">
+
+<p>Mixxed FIT</p>
+
+<img src="Mixxed%20FIT.jpg" alt="Mixxed FIT" width="300" height="200">
+
+<p>Zumba</p>
+
+<img src="Zumba.jpg" alt="Zumba" width="300" height="200">
+
+<table style="width:100%">
+  <tr>
+    <th>Mondy Jun 15</th>
+    <th>Tuesday Jun 16</th>
+    <th>Wednesday Jun 17</th>
+    <th>Thursday Jun 18</th>
+    <th>Friday Jun 19</th>
+    <th>Saturday Jun 20</th>
+    <th>Sunday Jun 21</th>
+  </tr>
+  <tr>
+    <td>Crossing Training<br>
+        06:30 - 07:30<br>
+        Kelly Johnson</td>
+    <td></td>
+    <td>Crossing Training<br>
+        06:30 - 07:30<br>
+        Kelly Johnson</td>
+    <td></td>
+    <td>Crossing Training<br>
+        06:30 - 07:30<br>
+        Kelly Johnson</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sprint<br>
+        08:00 - 08:30<br>
+        Annette Farouki</td>
+    <td></td>
+    <td>Sprint<br>
+        08:00 - 08:30<br>
+        Annette Farouki</td>
+    <td></td>
+    <td></td>
+    <td>Spin<br>
+        08:00 - 08:45<br>
+        Kelly Johnson</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td></td>
+    <td>Spin<br>
+        08:30 - 09:30<br>
+        kelly Johnson</td>
+    <td></td>
+    <td>Spin<br>
+        08:30 - 09:30<br>
+        kelly Johnson</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Body Pump<br>
+        09:00-10:00<br></td>
+    <td>Body Combat<br> 
+        09:00 -10:00<br>
+        Annette Farouki</td>
+    <td>Body Pump<br>
+        09:00-10:00</td>
+    <td>Body Combat<br>
+        09:00 -10:00<br>
+        Annette Farouki</td>
+    <td>Body Pump<br>
+        09:00-10:00</td>
+    <td>Body Pump<br>
+        09:00 -10:00<br>
+        Lea Anne Latimer</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Step Interval<br>
+        17:30 - 18:30<br>
+        Colleen Merrigan</td>
+    <td></td>
+    <td>Step Interval<br>
+        17:30 - 18:30<br>
+        Colleen Merrigan</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Adcanced Cross Training<br>
+        17:45 - 18:45<br>
+        Brooke Henderson</td>
+    <td></td>
+    <td>Adcanced Cross Training<br>   
+        17:45 - 18:45<br>
+        Brooke Henderson</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>MixxedFIT<br>
+        19:00 - 20:00</td>
+    <td></td>
+    <td>Zumba<br>
+        19:00 - 20:00<br>
+        Angela Esquivel-Zahner</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<h2>Fit for Fun Fitness Club</h2>
+
+<form method="GET" action="thankyou.html">
+  <label for="firstname">First name:</label><br>
+  <input type="text" id="firstname" name="fname" value="" ><br>
+  <label for="lastname">Last name:</label><br>
+  <input type="text" id="lastname" name="lname" value=""><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" value=""><br>
+  <label for="phone">Phone Number:</label><br>
+  <input type="text" id="phone" value=""><br>
+  <p>Best way to reach me are:</p>
+  <select name="contact" id="contact">
+  <option value="email">email</option>
+  <option value="phone">phone</option>
+  <option value="owl">owl</option>
+  <option value="mail">mail</option>
+  </select><br><br>
+  <p>Classes you are interested in:</p>
+   <input type="checkbox" id="class1" name="Cross_Training" value="Cros Training">
+  <label for="class1"> Cross Training</label><br>
+  <input type="checkbox" id="class2" name="Sprint" value="Sprint">
+  <label for="class2"> Sprint</label><br>
+  <input type="checkbox" id="class3" name="Spin" value="Spin">
+  <label for="class3"> Spin</label><br>
+  <input type="checkbox" id="class4" name="Body Pump" value="Body Pump">
+  <label for="class4"> Body Pump</label><br>
+  <input type="checkbox" id="class5" name="Body Combat<" value="Body Combat<">
+  <label for="class5"> Body Combat</label><br>
+  <input type="checkbox" id="class6" name="Step Interval" value="Step Interval">
+  <label for="class6"> Step Interval</label><br>
+  <input type="checkbox" id="class7" name="Advanced Cross Training" value="Advanced Cross Training">
+  <label for="class7"> Advanced Cross Training</label><br>
+  <input type="checkbox" id="class8" name="Mixxed FIT" value="Mixxed FIT">
+  <label for="class8"> Mixxed FIT</label><br>
+  <input type="checkbox" id="class9" name="Zumba" value="Zumba">
+  <label for="class9"> Zumba</label><br>
+  <p>Prefered class time(s):</p>
+  <label for="perferredtime">Please enter your preferred class time </label><br>
+  <input type="text" id="perferredtime" name="perferredtime" ><br>
+  <input type="radio" id="time1" name="am" value="am">
+  <label for="time1">am</label><br>
+  <input type="radio" id="time2" name="pm" value="pm">
+  <label for="time2">pm</label><br><br>
+  <p>Are you interested in joining our membership:</p>
+   <input type="radio" id="Yes" name="Yes" value="Yes">
+  <label for="Yes">Yes</label><br>
+  <input type="radio" id="No" name="No" value="No">
+  <label for="No">No</label><br><br>
+  
+   <input type="submit"/>
+
+
+</body>
+</html>
+
