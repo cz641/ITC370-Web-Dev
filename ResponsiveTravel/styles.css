@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #EDF4FD;
+}
+div.a {
+  text-indent: 20px;
+}
+div.b{
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+h1 {
+  color:#082449;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Georgia", Times, serif;
+}
+h2 {
+  color: #082449;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Georgia", Times, serif;
+}
+h3 {
+  font-size: 12px;
+  font-family: "Georgia", Times, serif;
+}
+h4 {
+  color: #082449;
+  font-size: 12px;
+  font-family: "Georgia", Times, serif;
+}
+h5 {
+  color: #082449;
+  font-family: "Georgia", Times, serif;
+}
+h6 {
+  color: #082449;
+  font-family: "Georgia", Times, serif;
+}
+a {
+  color: #082449;
+  font-family: "Georgia", Times, serif;
+}
+
+p {
+  color: #082449;
+  font-family: "Georgia", Times, serif;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+  
+img {
+  margin-left:10%;
+  margin-right:10%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  text-align:center;
+}
+
+
+@media only screen and  (min-width:568px){
+h2 {
+  color: #185B63;
+  text-align: center;
+  font-family: "Helvetica", Times, serif;
+}
+h3 {
+  color:#185B63;
+  text-align: center;
+  font-family: "Helvetica", Times, serif;
+}
+h4 {
+  color:#185B63;
+  text-align: center;
+  font-family: "Helvetica", Times, serif;
+}
+h5 {
+  color:#185B63;
+  text-align: center;
+  font-family: "Helvetica", Times, serif;
+}
+h6 {
+  color:#185B63;
+  text-align: center;
+  font-family: "Helvetica", Times, serif;
+}
+a {
+  color:#185B63;
+  text-align: center;
+  font-family: "Helvetica", Times, serif;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 567px){
+p {
+  color: #30B6C5;
+  font-family: "Papyrus";
+}
+h3 {
+  color: #30B6C5;
+  text-align: center;
+  font-family: "Papyrus";
+}
+h4 {
+  color: #30B6C5;
+  text-align: center;
+  font-family: "Papyrus";
+}
+h5 {
+  color: #30B6C5;
+  text-align: center;
+  font-family: "Papyrus";
+}
+h6 {
+  color: #30B6C5;
+  text-align: center;
+  font-family: "Papyrus";
+}
+a {
+  color: #30B6C5;
+  text-align: center;
+  font-family: "Papyrus";
+}
+img {
+  padding: 8px;
+}
+}
+
+@media only screen and (max-width: 480px){
+p {
+  color: #0C2D31;
+  font-family: "Garamond", Times, serif;
+}
+h1 {
+  color:#0C2D31;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Garamond", Times, serif;
+}
+h2 {
+  color: #0C2D31;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Garamond", Times, serif;
+}
+h3 {
+  color: #0C2D31;
+  text-align: right;
+  font-family: "Garamond", Times, serif;
+}
+h4 {
+  color: #0C2D31;
+  text-align: right;
+  font-family: "Garamond", Times, serif;
+}
+h5 {
+  color: #0C2D31;
+  text-align: right;
+  font-family: "Garamond", Times, serif;
+}
+h6 {
+  color: #0C2D31;
+  text-align: right;
+  font-family: "Garamond", Times, serif;
+}
+a {
+  color: #0C2D31;
+  text-align: right;
+  font-family: "Garamond", Times, serif;
+}
+img {
+  padding: 8px;
+}
+}
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Hotel</a></li>
+  <li><a href="#about">Food</a></li>
+  <li><a href="#contact">Scenic Spot</a></li>
+</ul>
+
+
+<h1>Bali Indonesia</h1>
+<div class="a">
+<p>Bali is a famous holiday destination in Indonesia. With its beautiful natural scenery, Bali attracts people from all over the world. Bali is the most popular destination in Indonesia. It is dominated by mountainous terrain with numerous volcanoes. Bali locates in the tropics, tourists can enjoy the beautiful tropical scenery. The climate is distinct from wet and dry seasons, making it a good tourist destination. Here are some famous places to visit in Bali: Pura Tanah Lot, Mount Batur, Uluwatu Temple, Ubud Monkey Forest, and Jatiluwih Rice Terraces.</p>
+
+<h2>Beautiful Destruction</h2>
+<div class="b">
+<img src="bali1.jpg" alt="bali1" width="500" height="333">
+
+
+<footer>
+ <h3>Contact us: Mary Travel Agency</h3>
+ <h4>1100 Kawasan stena  Dua BTDC, Bali, Indonesia, 80363</h4>
+ <h5>Tel:+62 301 00 1294</h5>
+ <h6>zha05325@missouristate.live.edu</h6>
+</footer>
+
+</body>
+</html>
