@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container heading" >
+       <h1 class="display-1">
+         <script>
+           document.write("Hello Javascript");
+         </script>
+            
+       </h1>
+       <p>
+         <script>
+            var myName = "Kirsten";
+            document.write(myName); 
+            //myName = "Stitch";
+            //document.write(myName);
+         </script>
+       </p>
+       <hr>
+       <script>
+         document.write("<p>My name is " + myName + "</p>")
+         console.log("<p>My name is " + myName + "</p>");
+       </script>
+
+    </div>
+    <div class="container heading">
+      <!-- <p onclick=alert(myName)>
+        Click Me!
+      </p> -->
+      <button id="userName" type="button" class="btn btn-primary" 
+      onclick=alert("Hello")>Say Hello</button>
+      <script>
+        //var newName = prompt("What is your user name?")
+        //console.log(newName);
+        //document.getElementById("userName").innerHTML = "Say Hello " + newName;
+      </script>
+    </div>
+
+    
+
+    <div class="container heading">
+      <div class="card" >
+      <figure class="figure">
+     <img src="images/dog1.jpg" class="card-img-top" alt="Cute Corgi" id="theImg">
+     <script>
+        var dogAlt = document.getElementById("theImg").alt;
+        console.log(dogAlt);
+     </script>
+     <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+     </figure>
+     <div class="card-body">
+     <h5 class="card-title">Card title</h5>
+     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     <a href="#" class="btn btn-primary" onclick="document.getElementById('theImg').src = 'images/dog2.jpg' ">Double the Dogs</a>
+     <button type="button" class="btn btn-success" onclick="document.getElementById('theImg').src = 'images/dog1.jpg' ">Original Dog</button>
+    </div>
+   </div>
+   </div>
+
+   <div id="theFooter">
+
+   </div>
+
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
+

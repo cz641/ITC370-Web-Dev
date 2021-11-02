@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{background-color: #eeeeee}
+.container{
+    background-color: white;
+    margin-top: 24px;
+  }
+.heading{
+    box-shadow:5px 5px 25px 8px grey;
+    padding: 25px;
+}
+</style>
+</html> 
