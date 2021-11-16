@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Swape Images</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin-left: 10px;
+  margin-left: 10px;
+  
+  font-family: Arial;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  bottom: 0;
+  border-style: double;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+  bottom: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  bottom: 0;
+}
+
+.container {
+  position: relative;
+  display: none;
+  border-style: double; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img id="expandedImg" src="flower1.jpeg" alt="Expanded" style="width:100%">
+</div>
+
+<div class="row">
+  <div class="column">
+    <img id ="thumbnails1" src="flower1.jpeg" alt="Red" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img id ="thumbnails2" src="flower2.jpeg" alt="Orange" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img id ="thumbnails3" src="flower3.jpeg" alt="Pink" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img id ="thumbnails4" src="flower4.jpeg" alt="Yellow" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
