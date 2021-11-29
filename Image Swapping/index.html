@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<title>Image Swapping Demo</title>
+
+<style>
+.thumbnail {
+   width: 285px;
+   height: 180px;
+   margin: 20px;
+}
+
+.mainImage {
+    margin: 20px;
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ body{
+    margin: auto;
+ }
+ 
+ </style>
+</head>
+<body>
+   <div>
+      <img src="flower1.jpeg" alt="main image" class="mainImage" id="mainImage"/>
+   </div>
+<div>
+   <img src="flower1.jpeg" alt="  " class="thumbnail" id="img1" onclick="swapImage(document.getElementById('img1').src)"/>
+    <img src="flower2.jpeg" alt="  " class="thumbnail" id="img2"
+onclick="swapImage(document.getElementById('img2').src)"/>
+    <img src="flower3.jpeg" alt="  " class="thumbnail" id="img3" onclick="swapImage(document.getElementById('img3').src)"/>
+    <img src="flower4.jpeg" alt="   " class="thumbnail" id="img4"
+onclick="swapImage(document.getElementById('img4').src)"/>
+</div>
+
+<script src='script.js'></script>
+
+</body>
+</html>
+
