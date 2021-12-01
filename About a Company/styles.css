@@ -1,0 +1,108 @@
+/* Chuyun Zhao 09/21/2021*/
+/* Homework: About a Company*/
+/* navigation list */
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ }
+
+   li {
+  float: left;
+ }
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+
+  li a:hover {
+  background-color: #111;
+  }
+/* hyperlinks */
+   a:link {
+     font-size: 17px;
+     font-family: serif;
+     text-align: center;
+     color: #FFFFFF;
+   }
+/* heading */
+   h1 {
+      color: #2C1114;
+      font-size: 30px;
+      font-family: serif;
+      text-align: center;
+   }
+   h2 {
+      color: #2C1114;
+      font-size: 30px;
+      font-family: serif;
+      text-align: center;
+   }
+/* paragraph */
+   p {
+      color: #582227;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-indent: 30px;
+   }
+/* footer */
+   footer{
+     font-size: 10px;
+     font-family: cursive;
+     position: absolute;
+     text-align: center;
+     bottom: 0;
+     width: 100%;
+     height: 2.5rem; 
+   }
+/* box-model styling */
+   .box {
+  background-image: linear-gradient(to right, #f9e5d8,#f9dcc4);
+  border-style: outset;
+  border-color: #2C1114;
+/* margin */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+/* padding */
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+   * {
+    box-sizing: border-box;
+   }
+/* image highlight */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+/* image of home page */
+  .image1 {
+    width:  500px;
+    height: 330px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+    
+   
