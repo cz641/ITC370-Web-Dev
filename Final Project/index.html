@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Great Race</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body onload="raceBegin()">
+    <input type="image" alt = " " src="redLight.png" id="red" onclick="raceRun()">
+
+    <input type ="image" alt = " " src="greenLight.png" id="green" onclick="raceRun()">
+
+    <div id="c">
+        <img src="cat.png" alt = " " id="cat">
+        <img src="catwin.png" alt = " " id="catWins"  onclick="raceBegin()">
+    </div>
+ 
+    <div id="h">
+        <img src="husky.png" alt = " " id="husky">
+        <img src="huskywin.png" alt = " " id="huskyWins" onclick="raceBegin()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+   
